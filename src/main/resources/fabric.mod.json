@@ -1,0 +1,29 @@
+{
+	"schemaVersion": 1,
+	"id": "easyrefuel",
+	"version": "${version}",
+	"name": "Easy Refuel",
+	"description": "Easily refuel furnaces in specified regions with a single keypress",
+	"authors": [
+		"Runedia"
+	],
+	"contact": {},
+	"license": "MIT",
+	"icon": "assets/easyrefuel/icon.png",
+	"environment": "client",
+	"entrypoints": {
+		"client": [
+			"com.easyrefuel.EasyRefuelClient"
+		],
+		"modmenu": [
+			"com.easyrefuel.config.ModMenuIntegration"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.18.0",
+		"minecraft": "~1.21.4",
+		"java": ">=21",
+		"fabric-api": "*",
+		"cloth-config": ">=15.0.0"
+	}
+}

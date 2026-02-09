@@ -1,0 +1,29 @@
+{
+  "key.easyrefuel.supply": "Supply Fuel to Furnaces",
+  "category.easyrefuel": "Easy Refuel",
+
+  "config.easyrefuel.title": "Easy Refuel Configuration",
+  "config.easyrefuel.category.general": "General Settings",
+  "config.easyrefuel.category.behavior": "Behavior Settings",
+  "config.easyrefuel.category.regions": "Regions",
+
+  "config.easyrefuel.tick_delay": "Tick Delay",
+  "config.easyrefuel.tick_delay.tooltip": "Delay between furnace fuel insertions (1-30 ticks)",
+
+  "config.easyrefuel.fuel_slot_mode": "Fuel Slot Mode",
+  "config.easyrefuel.fuel_slot_mode.tooltip.empty_only": "EMPTY_ONLY: Only insert if slot is empty",
+  "config.easyrefuel.fuel_slot_mode.tooltip.type_match": "TYPE_MATCH: Insert if same type or empty",
+  "config.easyrefuel.fuel_slot_mode.tooltip.force_replace": "FORCE_REPLACE: Replace any fuel",
+  "config.easyrefuel.fuel_slot_mode.tooltip.max_fill": "MAX_FILL: Fill to max stack size",
+
+  "config.easyrefuel.inventory_shortage_mode": "Inventory Shortage Mode",
+  "config.easyrefuel.inventory_shortage_mode.tooltip.fill_partial": "FILL_PARTIAL: Fill as many as possible",
+  "config.easyrefuel.inventory_shortage_mode.tooltip.cancel_on_shortage": "CANCEL_ON_SHORTAGE: Cancel if not enough fuel",
+
+  "config.easyrefuel.regions.empty": "No regions configured. Use wooden axe and /easyrefuel commands to create regions.",
+  "config.easyrefuel.regions.enabled": "Enabled",
+  "config.easyrefuel.regions.toggle.tooltip": "Enable/Disable this region",
+  "config.easyrefuel.regions.delete.warning": "Warning: Toggle below and save to delete this region.",
+  "config.easyrefuel.regions.delete.confirm": "Delete Region",
+  "config.easyrefuel.regions.delete.tooltip": "This region will be permanently deleted when enabled and saved."
+}

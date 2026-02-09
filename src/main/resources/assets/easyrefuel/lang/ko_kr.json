@@ -1,0 +1,29 @@
+{
+  "key.easyrefuel.supply": "화로에 연료 공급",
+  "category.easyrefuel": "Easy Refuel",
+
+  "config.easyrefuel.title": "Easy Refuel 설정",
+  "config.easyrefuel.category.general": "일반 설정",
+  "config.easyrefuel.category.behavior": "동작 설정",
+  "config.easyrefuel.category.regions": "영역 관리",
+
+  "config.easyrefuel.tick_delay": "틱 딜레이",
+  "config.easyrefuel.tick_delay.tooltip": "화로 연료 삽입 간 지연 시간 (1-30 틱)",
+
+  "config.easyrefuel.fuel_slot_mode": "연료 슬롯 모드",
+  "config.easyrefuel.fuel_slot_mode.tooltip.empty_only": "EMPTY_ONLY: 슬롯이 비어있을 때만 삽입",
+  "config.easyrefuel.fuel_slot_mode.tooltip.type_match": "TYPE_MATCH: 같은 종류이거나 비어있을 때 삽입",
+  "config.easyrefuel.fuel_slot_mode.tooltip.force_replace": "FORCE_REPLACE: 모든 연료 강제 교체",
+  "config.easyrefuel.fuel_slot_mode.tooltip.max_fill": "MAX_FILL: 최대 스택 크기까지 채우기",
+
+  "config.easyrefuel.inventory_shortage_mode": "인벤토리 부족 모드",
+  "config.easyrefuel.inventory_shortage_mode.tooltip.fill_partial": "FILL_PARTIAL: 가능한 만큼 채우기",
+  "config.easyrefuel.inventory_shortage_mode.tooltip.cancel_on_shortage": "CANCEL_ON_SHORTAGE: 연료 부족 시 취소",
+
+  "config.easyrefuel.regions.empty": "구성된 영역이 없습니다. 나무 도끼와 /easyrefuel 명령어를 사용하여 영역을 생성하세요.",
+  "config.easyrefuel.regions.enabled": "활성화",
+  "config.easyrefuel.regions.toggle.tooltip": "이 영역 활성화/비활성화",
+  "config.easyrefuel.regions.delete.warning": "주의: 영역을 삭제하려면 아래 토글을 활성화하고 저장하세요.",
+  "config.easyrefuel.regions.delete.confirm": "영역 삭제",
+  "config.easyrefuel.regions.delete.tooltip": "활성화 후 저장 시 이 영역이 영구적으로 삭제됩니다."
+}
