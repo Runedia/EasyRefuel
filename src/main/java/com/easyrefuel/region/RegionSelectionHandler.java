@@ -25,7 +25,7 @@ public class RegionSelectionHandler {
                     }
                     selector.setPos1(pos);
                     player.sendMessage(
-                            Text.literal("[Auto-Fuel] ")
+                            Text.literal("[Easy Refuel] ")
                                     .formatted(Formatting.GREEN)
                                     .append(Text.literal("Position 1: " + pos.toShortString())
                                             .formatted(Formatting.WHITE)),
@@ -50,7 +50,7 @@ public class RegionSelectionHandler {
                     selector.setPos2(pos);
 
                     player.sendMessage(
-                            Text.literal("[Auto-Fuel] ")
+                            Text.literal("[Easy Refuel] ")
                                     .formatted(Formatting.GREEN)
                                     .append(Text.literal("Position 2: " + pos.toShortString())
                                             .formatted(Formatting.WHITE)),
@@ -104,7 +104,7 @@ public class RegionSelectionHandler {
         // Validation
         if (hasNonFurnaceBlock) {
             player.sendMessage(
-                    Text.literal("[Auto-Fuel] ")
+                    Text.literal("[Easy Refuel] ")
                             .formatted(Formatting.RED)
                             .append(Text.literal("Region contains non-furnace blocks! Region creation cancelled.")
                                     .formatted(Formatting.WHITE)),
@@ -116,7 +116,7 @@ public class RegionSelectionHandler {
 
         if (furnaceCount < MIN_FURNACES || furnaceCount > MAX_FURNACES) {
             player.sendMessage(
-                    Text.literal("[Auto-Fuel] ")
+                    Text.literal("[Easy Refuel] ")
                             .formatted(Formatting.RED)
                             .append(Text.literal(String.format(
                                     "Invalid furnace count: %d (must be between %d and %d). Region creation cancelled.",
@@ -130,10 +130,10 @@ public class RegionSelectionHandler {
 
         // Success - ready to create region
         player.sendMessage(
-                Text.literal("[Auto-Fuel] ")
+                Text.literal("[Easy Refuel] ")
                         .formatted(Formatting.GREEN)
                         .append(Text.literal(String.format(
-                                "Valid region with %d furnaces! Use /refill create <name> <fuel_type> to save this region.",
+                                "Valid region with %d furnaces! Use /easyrefuel create <name> <fuel_type> to save this region.",
                                 furnaceCount))
                                 .formatted(Formatting.WHITE)),
                 false

@@ -173,7 +173,7 @@ public class CommandRegistry {
 
     private static void sendMessage(CommandContext<FabricClientCommandSource> context, String message, Formatting color) {
         context.getSource().sendFeedback(
-                Text.literal("[EasyRefuel] ")
+                Text.literal("[Easy Refuel] ")
                         .formatted(Formatting.GREEN)
                         .append(Text.literal(message).formatted(color))
         );

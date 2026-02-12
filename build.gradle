@@ -12,13 +12,13 @@ base {
 
 repositories {
 	mavenCentral()
-	maven { url "https://maven.fabricmc.net/" }
+	maven { url = "https://maven.fabricmc.net/" }
 
 	// Cloth Config 저장소
-	maven { url "https://maven.shedaniel.me/" }
+	maven { url = "https://maven.shedaniel.me/" }
 
 	// ModMenu 저장소
-	maven { url "https://maven.terraformersmc.com/releases/" }
+	maven { url = "https://maven.terraformersmc.com/releases/" }
 }
 
 dependencies {

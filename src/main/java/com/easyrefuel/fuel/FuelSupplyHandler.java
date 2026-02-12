@@ -348,7 +348,7 @@ public class FuelSupplyHandler {
 
     private static void sendMessage(ClientPlayerEntity player, String message, Formatting color) {
         player.sendMessage(
-            Text.literal("[Auto-Fuel] ")
+            Text.literal("[Easy Refuel] ")
                 .formatted(Formatting.GREEN)
                 .append(Text.literal(message).formatted(color)),
             false
